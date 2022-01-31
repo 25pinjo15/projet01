@@ -1,10 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Swap 2 variable and display them
 
-using System;
+namespace VariableSwap;
 
-class projet01
+class VariableSwap
 {
-    static void Main(string[] args)
+    static void Main()
     {
         Console.Clear();
         Console.WriteLine("#***********************************#\n" + 

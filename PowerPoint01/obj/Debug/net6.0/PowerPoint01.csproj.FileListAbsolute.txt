@@ -1,0 +1,15 @@
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\bin\Debug\net6.0\PowerPoint01.exe
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\bin\Debug\net6.0\PowerPoint01.deps.json
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\bin\Debug\net6.0\PowerPoint01.runtimeconfig.json
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\bin\Debug\net6.0\PowerPoint01.dll
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\bin\Debug\net6.0\ref\PowerPoint01.dll
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\bin\Debug\net6.0\PowerPoint01.pdb
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\obj\Debug\net6.0\PowerPoint01.csproj.AssemblyReference.cache
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\obj\Debug\net6.0\PowerPoint01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\obj\Debug\net6.0\PowerPoint01.AssemblyInfoInputs.cache
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\obj\Debug\net6.0\PowerPoint01.AssemblyInfo.cs
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\obj\Debug\net6.0\PowerPoint01.csproj.CoreCompileInputs.cache
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\obj\Debug\net6.0\PowerPoint01.dll
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\obj\Debug\net6.0\ref\PowerPoint01.dll
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\obj\Debug\net6.0\PowerPoint01.pdb
+C:\Users\johny\Documents\Rider Project\projet01\PowerPoint01\obj\Debug\net6.0\PowerPoint01.genruntimeconfig.cache

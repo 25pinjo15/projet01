@@ -1,0 +1,15 @@
+C:\Users\johny\Documents\Rider Project\projet01\test_place\bin\Debug\net6.0\test_place.exe
+C:\Users\johny\Documents\Rider Project\projet01\test_place\bin\Debug\net6.0\test_place.deps.json
+C:\Users\johny\Documents\Rider Project\projet01\test_place\bin\Debug\net6.0\test_place.runtimeconfig.json
+C:\Users\johny\Documents\Rider Project\projet01\test_place\bin\Debug\net6.0\test_place.dll
+C:\Users\johny\Documents\Rider Project\projet01\test_place\bin\Debug\net6.0\ref\test_place.dll
+C:\Users\johny\Documents\Rider Project\projet01\test_place\bin\Debug\net6.0\test_place.pdb
+C:\Users\johny\Documents\Rider Project\projet01\test_place\obj\Debug\net6.0\test_place.csproj.AssemblyReference.cache
+C:\Users\johny\Documents\Rider Project\projet01\test_place\obj\Debug\net6.0\test_place.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johny\Documents\Rider Project\projet01\test_place\obj\Debug\net6.0\test_place.AssemblyInfoInputs.cache
+C:\Users\johny\Documents\Rider Project\projet01\test_place\obj\Debug\net6.0\test_place.AssemblyInfo.cs
+C:\Users\johny\Documents\Rider Project\projet01\test_place\obj\Debug\net6.0\test_place.csproj.CoreCompileInputs.cache
+C:\Users\johny\Documents\Rider Project\projet01\test_place\obj\Debug\net6.0\test_place.dll
+C:\Users\johny\Documents\Rider Project\projet01\test_place\obj\Debug\net6.0\ref\test_place.dll
+C:\Users\johny\Documents\Rider Project\projet01\test_place\obj\Debug\net6.0\test_place.pdb
+C:\Users\johny\Documents\Rider Project\projet01\test_place\obj\Debug\net6.0\test_place.genruntimeconfig.cache

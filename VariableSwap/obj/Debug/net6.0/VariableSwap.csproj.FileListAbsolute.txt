@@ -1,0 +1,15 @@
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\bin\Debug\net6.0\VariableSwap.exe
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\bin\Debug\net6.0\VariableSwap.deps.json
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\bin\Debug\net6.0\VariableSwap.runtimeconfig.json
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\bin\Debug\net6.0\VariableSwap.dll
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\bin\Debug\net6.0\ref\VariableSwap.dll
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\bin\Debug\net6.0\VariableSwap.pdb
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\obj\Debug\net6.0\VariableSwap.csproj.AssemblyReference.cache
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\obj\Debug\net6.0\VariableSwap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\obj\Debug\net6.0\VariableSwap.AssemblyInfoInputs.cache
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\obj\Debug\net6.0\VariableSwap.AssemblyInfo.cs
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\obj\Debug\net6.0\VariableSwap.csproj.CoreCompileInputs.cache
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\obj\Debug\net6.0\VariableSwap.dll
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\obj\Debug\net6.0\ref\VariableSwap.dll
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\obj\Debug\net6.0\VariableSwap.pdb
+C:\Users\johny\Documents\Rider Project\projet01\VariableSwap\obj\Debug\net6.0\VariableSwap.genruntimeconfig.cache
