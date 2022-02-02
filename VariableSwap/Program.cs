@@ -1,5 +1,11 @@
 ﻿// Swap 2 variable and display them
 
+namespace VariableSwap
+{
+    static 
+    
+}
+
 int x = 5;
 int y = 8;
 int tmp_x;

@@ -1,6 +1,7 @@
 ﻿/* Menu test place
  * Im tryin to learn to make some elaborate console menu and
  * at the same time learning class,function and ect
+ *  -> = - > : => = = > 
  */
 
 namespace MenuTest
