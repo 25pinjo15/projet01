@@ -1,9 +1,9 @@
-﻿/*
+﻿
 int a = 5, result1;
 float x = 2.0f;
 result1 = (int) (a / x); // will convert the answer to a int so will keep only the 2 of 2.5
 Console.WriteLine(result1);
-*/
+
 
 //##################################################################
 

@@ -1,17 +1,12 @@
 ﻿// Swap 2 variable and display them
 
-namespace VariableSwap;
+int x = 5;
+int y = 8;
+int tmp_x;
 
-class VariableSwap
-{
-    static void Main()
-    {
-        Console.Clear();
-        Console.WriteLine("#***********************************#\n" + 
-                          "             Invalid\n" +
-                          "Enter a month number from 0 to 12 :\n" +
-                          "Press enter to continue :\n" +
-                          "#***********************************#");
-        Console.ReadLine();
-    }
-}
+
+Console.WriteLine("Avant permutation x = " + x + " et y = " + y);
+tmp_x = x;
+x = y;
+y = tmp_x;
+Console.WriteLine("Apres permutation x = " + x + " et y = " + y);

@@ -1,6 +1,7 @@
-﻿# Shawinigan cegep exercise repositary
+﻿# Shawinigan cegep C# exercise repositary
 
 This is my repositary for all the exercise and everything we make
+related to C# and Rider IDE
 
 ## Can I use this ?
 
