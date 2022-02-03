@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "scratchBoard2/1.0.0": {
+        "runtime": {
+          "scratchBoard2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "scratchBoard2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

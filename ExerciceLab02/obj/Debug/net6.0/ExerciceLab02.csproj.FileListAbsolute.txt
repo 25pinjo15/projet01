@@ -1,0 +1,15 @@
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\bin\Debug\net6.0\ExerciceLab02.exe
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\bin\Debug\net6.0\ExerciceLab02.deps.json
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\bin\Debug\net6.0\ExerciceLab02.runtimeconfig.json
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\bin\Debug\net6.0\ExerciceLab02.dll
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\bin\Debug\net6.0\ref\ExerciceLab02.dll
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\bin\Debug\net6.0\ExerciceLab02.pdb
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\obj\Debug\net6.0\ExerciceLab02.csproj.AssemblyReference.cache
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\obj\Debug\net6.0\ExerciceLab02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\obj\Debug\net6.0\ExerciceLab02.AssemblyInfoInputs.cache
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\obj\Debug\net6.0\ExerciceLab02.AssemblyInfo.cs
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\obj\Debug\net6.0\ExerciceLab02.csproj.CoreCompileInputs.cache
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\obj\Debug\net6.0\ExerciceLab02.dll
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\obj\Debug\net6.0\ref\ExerciceLab02.dll
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\obj\Debug\net6.0\ExerciceLab02.pdb
+C:\Users\johny\Documents\Rider Project\projet01\ExerciceLab02\obj\Debug\net6.0\ExerciceLab02.genruntimeconfig.cache
