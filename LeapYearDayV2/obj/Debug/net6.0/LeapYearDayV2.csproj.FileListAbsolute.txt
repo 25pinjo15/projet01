@@ -1,0 +1,15 @@
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\bin\Debug\net6.0\LeapYearDayV2.exe
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\bin\Debug\net6.0\LeapYearDayV2.deps.json
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\bin\Debug\net6.0\LeapYearDayV2.runtimeconfig.json
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\bin\Debug\net6.0\LeapYearDayV2.dll
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\bin\Debug\net6.0\ref\LeapYearDayV2.dll
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\bin\Debug\net6.0\LeapYearDayV2.pdb
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\obj\Debug\net6.0\LeapYearDayV2.csproj.AssemblyReference.cache
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\obj\Debug\net6.0\LeapYearDayV2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\obj\Debug\net6.0\LeapYearDayV2.AssemblyInfoInputs.cache
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\obj\Debug\net6.0\LeapYearDayV2.AssemblyInfo.cs
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\obj\Debug\net6.0\LeapYearDayV2.csproj.CoreCompileInputs.cache
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\obj\Debug\net6.0\LeapYearDayV2.dll
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\obj\Debug\net6.0\ref\LeapYearDayV2.dll
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\obj\Debug\net6.0\LeapYearDayV2.pdb
+C:\Users\johny\Documents\Rider Project\projet01\LeapYearDayV2\obj\Debug\net6.0\LeapYearDayV2.genruntimeconfig.cache

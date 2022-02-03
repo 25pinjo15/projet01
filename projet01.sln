@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scratchBoard", "scratchBoar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuTest", "MenuTest\MenuTest.csproj", "{92C1D9FC-A603-4638-B65C-2CFF0BA1FB44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYearDayV2", "LeapYearDayV2\LeapYearDayV2.csproj", "{06E81506-57BB-4823-891C-8CD281B03273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scratchBoard2", "scratchBoard2\scratchBoard2.csproj", "{93B233B2-D0DF-4657-8D4B-A2D4369C1455}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{92C1D9FC-A603-4638-B65C-2CFF0BA1FB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92C1D9FC-A603-4638-B65C-2CFF0BA1FB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92C1D9FC-A603-4638-B65C-2CFF0BA1FB44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E81506-57BB-4823-891C-8CD281B03273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E81506-57BB-4823-891C-8CD281B03273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E81506-57BB-4823-891C-8CD281B03273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E81506-57BB-4823-891C-8CD281B03273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B233B2-D0DF-4657-8D4B-A2D4369C1455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B233B2-D0DF-4657-8D4B-A2D4369C1455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B233B2-D0DF-4657-8D4B-A2D4369C1455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B233B2-D0DF-4657-8D4B-A2D4369C1455}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

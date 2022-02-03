@@ -1,64 +1,96 @@
-﻿// See https://aka.ms/new-console-template for more informationc
+﻿
+            using System.Diagnostics;
 
-using System.Diagnostics;
+            int input = 0;
+            int result = 0;
 
-namespace scratchBoard
-{
-    class Program
-    {
-        static void Main()
-        {
-            bool showMain = true;       // Set showmain to true so the loop can run
             
-            while (showMain)            // = while true since showMain is bool
-            {
-                showMain = MainMenu();  // Call function MainMenu
 
 
-            }
-        }
+            Console.WriteLine("#***********************************#\n" +
+                              "Welcome to this not useful program.\n" +
+                              "This is some exercise we had\n" +
+                              "Please press to continue\n" +
+                              "#***********************************#");
 
-        private static bool MainMenu()
-        {
-            Console.Clear();
-            Console.WriteLine("Hello press 1 for test or type quit to exit");
-            switch (Console.ReadLine())     // Read input and case it or reject it
-            {
-                case "1":
-                    CaptureDisplay();
-                    return true;
-            
-                case "quit":        // Will return false to Main so it stop the prog
-                    Console.Clear();    // Display an exit message
-                    Console.WriteLine("thank you, exited without error");
-                    return false;
-               
-                default:            // In case something bad happen aka wrong input
-                    return true;
-            }
-        }
-        
-        private static string InputCapture() // this will return inputed value
-        {
-            Console.Clear();
-            Console.Write("enter something to show on screen\n");
-            return Console.ReadLine();
-        }
-
-
-
-        private static void Display(string message)
-        {
-            Console.Clear();
-            Console.WriteLine($"hey your message is here {message}");
+            //*******************2.1****************
             Console.ReadLine();
-        }
-
-        private static void CaptureDisplay()
-        {
             Console.Clear();
-            Display(InputCapture()); // Call display to show inputcapute call
-        }
+            Console.Write("Entrez un nombre :");
+            input = Convert.ToInt32(Console.ReadLine());
+            result = input * input;
+            Console.WriteLine($"Le carre de {input} est {result}");
+            Console.WriteLine("pour le 2.2 press enter");
+            Console.ReadLine();
+            Console.Clear();
+            
+            // ***********2.2************* 
+            // Variable declaration
+            decimal prixVente = 0;
+            decimal TPS = 0.05m;
+            decimal TPS_Res = 0m;
+            decimal TVQ = 0.09975m;
+            decimal TVQ_Res = 0m;
+            decimal total = 0m;
+            
+            // Main
+            Console.Write("quel est le prix de vente  :");
+            prixVente = Convert.ToDecimal(Console.ReadLine());
+            TPS_Res = prixVente * TPS;
+            TVQ_Res = prixVente * TVQ;
+            total = Math.Round(prixVente + TPS_Res + TVQ_Res, 2);
+            
+            // To use if you want to display 2 number for tax
+            TPS_Res = Math.Round(TPS_Res, 2);
+            TVQ_Res = Math.Round(TVQ_Res, 2);
+            
+            Console.WriteLine($"Montant  : {prixVente} $\n" +
+                              $"TPS      : {TPS_Res} $ \n" +
+                              $"TVQ      : {TVQ_Res} $\n" + 
+                              $"Total    : {total} $\n\n");
+            
+            Console.WriteLine("press enter to continue to 2.3");
+            Console.ReadLine();
+            Console.Clear();
+            
+            
+            // *************2.3************
+            // Variable declaration
+            decimal waterTemp;
+            string state = "";
+            // main
+            Console.WriteLine("Exercise 2.3");
+            Console.Write($"Entrez est la temperature de l'eau en celcieus : ");
+            waterTemp = Convert.ToDecimal(Console.ReadLine());
+            switch (waterTemp)
+            {
+                case >=100:
+                    state = "vapeur";
+                    break;
+                case <= 0:
+                    state = "glace";
+                    break;
+                default:
+                    state = "liquide";
+                    break;
+            }
+            Console.WriteLine($"L'etat de l'eau est : {state}");
+            Console.WriteLine("pour passer a 2.4 press enter");
+            Console.ReadLine();
+            Console.Clear();
+            
+            //************************2.4*******************
 
-    }
-}
+            double sphere = 0;
+            double sphereVolume = 0;
+            
+            Console.WriteLine("Exercise 2.4");
+            Console.Write("Entre le diameter de la sphere :");
+            sphere = Convert.ToDouble(Console.ReadLine());
+            sphereVolume = Math.PI * Math.Pow(sphere, 3) /3 /2;
+            sphereVolume = Math.Round(sphereVolume, 1);
+            Console.WriteLine($"le volume d'une sphere de diamete {sphere} est de {sphereVolume} cm3");
+            Console.WriteLine("press enter to continue to 2.5");
+            
+            
+            

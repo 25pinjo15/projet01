@@ -14,8 +14,6 @@
 
 // -Variable decalaration
 
-using System.Text.RegularExpressions;
-
 string monthInput;
 byte monthNumber = 0;
 int year = 0;
@@ -117,6 +115,7 @@ while(true)
 
 
 //-Will check if the year is a leap year
+// Will modulo the year value to check if the year enter one of this category
 if ((year % 400) == 0)
     {
        // Console.WriteLine(" is a leap year.\n", year);
@@ -202,7 +201,7 @@ else
 
 Console.Clear();
 Console.WriteLine("#***********************************#\n" + 
-                  "The month: " + monthName[monthNumber - 1] + "\n"+ // substract 1 to fit the array
+                  "The month: " + monthName[monthNumber - 1] + "\n"+ // substract 1 to fit the array since 0-11 not 1-12
                   "contain: " + dayNumber + " days\n" + 
                   "and the year "+ year + " is a " + leapName + " year\n" +
                   "#***********************************#");
