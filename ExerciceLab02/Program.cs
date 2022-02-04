@@ -19,6 +19,7 @@ namespace ExerciceLab02
             Console.Clear();        // Stating blank !
             
             Console.WriteLine("*******************************************\n" + 
+                              "|Welcome to exercise labo02               |\n" +
                               "|Hello enter a choice or type quit to exit|\n" + 
                               "|1. exercise 2.1                          |\n" +
                               "|2. exercise 2.2                          |\n" +
