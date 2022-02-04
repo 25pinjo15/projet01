@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\LeapYearDayV2\\LeapYearDayV2.csproj",
+      "projectUniqueName": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\LeapYearDayV2\\LeapYearDayV2.csproj",
       "projectName": "LeapYearDayV2",
-      "projectPath": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\LeapYearDayV2\\LeapYearDayV2.csproj",
+      "projectPath": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\LeapYearDayV2\\LeapYearDayV2.csproj",
       "packagesPath": "C:\\Users\\johny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\LeapYearDayV2\\obj\\",
+      "outputPath": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\LeapYearDayV2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\johny\\AppData\\Roaming\\NuGet\\NuGet.Config"

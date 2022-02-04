@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\VariableSwap\\VariableSwap.csproj": {}
+    "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\VariableSwap\\VariableSwap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\VariableSwap\\VariableSwap.csproj": {
+    "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\VariableSwap\\VariableSwap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\VariableSwap\\VariableSwap.csproj",
+        "projectUniqueName": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\VariableSwap\\VariableSwap.csproj",
         "projectName": "VariableSwap",
-        "projectPath": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\VariableSwap\\VariableSwap.csproj",
+        "projectPath": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\VariableSwap\\VariableSwap.csproj",
         "packagesPath": "C:\\Users\\johny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\VariableSwap\\obj\\",
+        "outputPath": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\VariableSwap\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johny\\AppData\\Roaming\\NuGet\\NuGet.Config"

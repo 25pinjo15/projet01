@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\MenuTest\\MenuTest.csproj": {}
+    "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\MenuTest\\MenuTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\MenuTest\\MenuTest.csproj": {
+    "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\MenuTest\\MenuTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\MenuTest\\MenuTest.csproj",
+        "projectUniqueName": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\MenuTest\\MenuTest.csproj",
         "projectName": "MenuTest",
-        "projectPath": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\MenuTest\\MenuTest.csproj",
+        "projectPath": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\MenuTest\\MenuTest.csproj",
         "packagesPath": "C:\\Users\\johny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\MenuTest\\obj\\",
+        "outputPath": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\MenuTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johny\\AppData\\Roaming\\NuGet\\NuGet.Config"

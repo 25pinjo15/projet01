@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\TestSourceTree\\TestSourceTree.csproj",
+      "projectUniqueName": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\TestSourceTree\\TestSourceTree.csproj",
       "projectName": "TestSourceTree",
-      "projectPath": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\TestSourceTree\\TestSourceTree.csproj",
+      "projectPath": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\TestSourceTree\\TestSourceTree.csproj",
       "packagesPath": "C:\\Users\\johny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\TestSourceTree\\obj\\",
+      "outputPath": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\TestSourceTree\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\johny\\AppData\\Roaming\\NuGet\\NuGet.Config"

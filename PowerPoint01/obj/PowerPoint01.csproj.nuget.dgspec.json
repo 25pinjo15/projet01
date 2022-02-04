@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\PowerPoint01\\PowerPoint01.csproj": {}
+    "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\PowerPoint01\\PowerPoint01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\PowerPoint01\\PowerPoint01.csproj": {
+    "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\PowerPoint01\\PowerPoint01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\PowerPoint01\\PowerPoint01.csproj",
+        "projectUniqueName": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\PowerPoint01\\PowerPoint01.csproj",
         "projectName": "PowerPoint01",
-        "projectPath": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\PowerPoint01\\PowerPoint01.csproj",
+        "projectPath": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\PowerPoint01\\PowerPoint01.csproj",
         "packagesPath": "C:\\Users\\johny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johny\\Documents\\Rider Project\\projet01\\PowerPoint01\\obj\\",
+        "outputPath": "C:\\Users\\johny\\Documents\\SourceTree\\projet01\\PowerPoint01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johny\\AppData\\Roaming\\NuGet\\NuGet.Config"
