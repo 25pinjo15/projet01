@@ -50,7 +50,9 @@ namespace ExerciseLab02
                 case "6":
                     Num2dot6();
                     return true;
-
+                case "7":
+                    Num2dot7();
+                    return true;
                 case "quit": // Will return false to Main so it stop the prog
                     Console.Clear(); // Display an exit message
                     Console.WriteLine("thank you, exited without error");
@@ -238,6 +240,42 @@ namespace ExerciseLab02
             }
             Console.Clear();
             Console.WriteLine($"{year} est une annee {indicateur}");
+            Console.WriteLine("press enter to return to main menu");
+            Console.ReadLine();
+            Console.Clear();
+        }
+
+        private static void Num2dot7()
+        {
+            
+            Console.Write("Quel numero de jour de la semaine sommes-nous ? : ");
+            switch (Console.ReadLine()) // Read input and case it or reject it
+            {
+                case "1":
+                    Console.WriteLine("Bon dimanche a toi!");
+                    break;
+                case "2":
+                    Console.WriteLine("Bon lundi a toi!");
+                    break;
+                case "3":
+                    Console.WriteLine("Bon mardi a toi!");
+                    break;
+                case "4":
+                    Console.WriteLine("Bon mercredi a toi!");
+                    break;
+                case "5":
+                    Console.WriteLine("Bon jeudi a toi!");
+                    break;
+                case "6":
+                    Console.WriteLine("Bon vendredi a toi!");
+                    break;
+                case "7" :
+                    Console.WriteLine("Bon Samedi a toi!");
+                    break;
+                default: // In case something bad happen aka wrong input
+                    Console.WriteLine("Tu est perdu dans l'espcace toi!");
+                    break;
+            }
             Console.WriteLine("press enter to return to main menu");
             Console.ReadLine();
             Console.Clear();
