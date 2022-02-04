@@ -1,6 +1,6 @@
-﻿using System.Diagnostics;
+﻿// There is the exercise for the lab02 
 
-namespace ExerciseLab02
+namespace ExerciceLab02
 {
     class Program
     {
