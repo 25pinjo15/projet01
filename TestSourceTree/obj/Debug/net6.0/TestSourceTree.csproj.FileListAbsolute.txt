@@ -1,0 +1,14 @@
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\bin\Debug\net6.0\TestSourceTree.exe
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\bin\Debug\net6.0\TestSourceTree.deps.json
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\bin\Debug\net6.0\TestSourceTree.runtimeconfig.json
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\bin\Debug\net6.0\TestSourceTree.dll
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\bin\Debug\net6.0\ref\TestSourceTree.dll
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\bin\Debug\net6.0\TestSourceTree.pdb
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\obj\Debug\net6.0\TestSourceTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\obj\Debug\net6.0\TestSourceTree.AssemblyInfoInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\obj\Debug\net6.0\TestSourceTree.AssemblyInfo.cs
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\obj\Debug\net6.0\TestSourceTree.csproj.CoreCompileInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\obj\Debug\net6.0\TestSourceTree.dll
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\obj\Debug\net6.0\ref\TestSourceTree.dll
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\obj\Debug\net6.0\TestSourceTree.pdb
+C:\Users\johny\Documents\SourceTree\projet01\TestSourceTree\obj\Debug\net6.0\TestSourceTree.genruntimeconfig.cache

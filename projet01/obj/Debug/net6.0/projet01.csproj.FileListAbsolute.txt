@@ -13,3 +13,18 @@ C:\Users\johny\Documents\Rider Project\projet01\projet01\obj\Debug\net6.0\projet
 C:\Users\johny\Documents\Rider Project\projet01\projet01\obj\Debug\net6.0\ref\projet01.dll
 C:\Users\johny\Documents\Rider Project\projet01\projet01\obj\Debug\net6.0\projet01.pdb
 C:\Users\johny\Documents\Rider Project\projet01\projet01\obj\Debug\net6.0\projet01.genruntimeconfig.cache
+C:\Users\johny\Documents\SourceTree\projet01\projet01\bin\Debug\net6.0\projet01.exe
+C:\Users\johny\Documents\SourceTree\projet01\projet01\bin\Debug\net6.0\projet01.deps.json
+C:\Users\johny\Documents\SourceTree\projet01\projet01\bin\Debug\net6.0\projet01.runtimeconfig.json
+C:\Users\johny\Documents\SourceTree\projet01\projet01\bin\Debug\net6.0\projet01.dll
+C:\Users\johny\Documents\SourceTree\projet01\projet01\bin\Debug\net6.0\ref\projet01.dll
+C:\Users\johny\Documents\SourceTree\projet01\projet01\bin\Debug\net6.0\projet01.pdb
+C:\Users\johny\Documents\SourceTree\projet01\projet01\obj\Debug\net6.0\projet01.csproj.AssemblyReference.cache
+C:\Users\johny\Documents\SourceTree\projet01\projet01\obj\Debug\net6.0\projet01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johny\Documents\SourceTree\projet01\projet01\obj\Debug\net6.0\projet01.AssemblyInfoInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\projet01\obj\Debug\net6.0\projet01.AssemblyInfo.cs
+C:\Users\johny\Documents\SourceTree\projet01\projet01\obj\Debug\net6.0\projet01.csproj.CoreCompileInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\projet01\obj\Debug\net6.0\projet01.dll
+C:\Users\johny\Documents\SourceTree\projet01\projet01\obj\Debug\net6.0\ref\projet01.dll
+C:\Users\johny\Documents\SourceTree\projet01\projet01\obj\Debug\net6.0\projet01.pdb
+C:\Users\johny\Documents\SourceTree\projet01\projet01\obj\Debug\net6.0\projet01.genruntimeconfig.cache

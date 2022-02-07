@@ -13,3 +13,18 @@ C:\Users\johny\Documents\Rider Project\projet01\scratchBoard2\obj\Debug\net6.0\s
 C:\Users\johny\Documents\Rider Project\projet01\scratchBoard2\obj\Debug\net6.0\ref\scratchBoard2.dll
 C:\Users\johny\Documents\Rider Project\projet01\scratchBoard2\obj\Debug\net6.0\scratchBoard2.pdb
 C:\Users\johny\Documents\Rider Project\projet01\scratchBoard2\obj\Debug\net6.0\scratchBoard2.genruntimeconfig.cache
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\bin\Debug\net6.0\scratchBoard2.exe
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\bin\Debug\net6.0\scratchBoard2.deps.json
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\bin\Debug\net6.0\scratchBoard2.runtimeconfig.json
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\bin\Debug\net6.0\scratchBoard2.dll
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\bin\Debug\net6.0\ref\scratchBoard2.dll
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\bin\Debug\net6.0\scratchBoard2.pdb
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\obj\Debug\net6.0\scratchBoard2.csproj.AssemblyReference.cache
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\obj\Debug\net6.0\scratchBoard2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\obj\Debug\net6.0\scratchBoard2.AssemblyInfoInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\obj\Debug\net6.0\scratchBoard2.AssemblyInfo.cs
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\obj\Debug\net6.0\scratchBoard2.csproj.CoreCompileInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\obj\Debug\net6.0\scratchBoard2.dll
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\obj\Debug\net6.0\ref\scratchBoard2.dll
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\obj\Debug\net6.0\scratchBoard2.pdb
+C:\Users\johny\Documents\SourceTree\projet01\scratchBoard2\obj\Debug\net6.0\scratchBoard2.genruntimeconfig.cache

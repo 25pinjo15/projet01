@@ -1,7 +1,8 @@
 using System;
 using System.IO;
+using CandyMachine;
 
-namespace Project
+namespace CandyMachine
 {
     public class Data
     {

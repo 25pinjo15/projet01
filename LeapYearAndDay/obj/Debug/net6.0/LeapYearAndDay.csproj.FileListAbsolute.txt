@@ -13,3 +13,18 @@ C:\Users\johny\Documents\Rider Project\projet01\LeapYearAndDay\obj\Debug\net6.0\
 C:\Users\johny\Documents\Rider Project\projet01\LeapYearAndDay\obj\Debug\net6.0\ref\LeapYearAndDay.dll
 C:\Users\johny\Documents\Rider Project\projet01\LeapYearAndDay\obj\Debug\net6.0\LeapYearAndDay.pdb
 C:\Users\johny\Documents\Rider Project\projet01\LeapYearAndDay\obj\Debug\net6.0\LeapYearAndDay.genruntimeconfig.cache
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\bin\Debug\net6.0\LeapYearAndDay.exe
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\bin\Debug\net6.0\LeapYearAndDay.deps.json
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\bin\Debug\net6.0\LeapYearAndDay.runtimeconfig.json
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\bin\Debug\net6.0\LeapYearAndDay.dll
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\bin\Debug\net6.0\ref\LeapYearAndDay.dll
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\bin\Debug\net6.0\LeapYearAndDay.pdb
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\obj\Debug\net6.0\LeapYearAndDay.csproj.AssemblyReference.cache
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\obj\Debug\net6.0\LeapYearAndDay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\obj\Debug\net6.0\LeapYearAndDay.AssemblyInfoInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\obj\Debug\net6.0\LeapYearAndDay.AssemblyInfo.cs
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\obj\Debug\net6.0\LeapYearAndDay.csproj.CoreCompileInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\obj\Debug\net6.0\LeapYearAndDay.dll
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\obj\Debug\net6.0\ref\LeapYearAndDay.dll
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\obj\Debug\net6.0\LeapYearAndDay.pdb
+C:\Users\johny\Documents\SourceTree\projet01\LeapYearAndDay\obj\Debug\net6.0\LeapYearAndDay.genruntimeconfig.cache

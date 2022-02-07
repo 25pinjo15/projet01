@@ -1,0 +1,14 @@
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\bin\Debug\net6.0\CandyMachine.exe
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\bin\Debug\net6.0\CandyMachine.deps.json
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\bin\Debug\net6.0\CandyMachine.runtimeconfig.json
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\bin\Debug\net6.0\CandyMachine.dll
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\bin\Debug\net6.0\ref\CandyMachine.dll
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\bin\Debug\net6.0\CandyMachine.pdb
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\obj\Debug\net6.0\CandyMachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\obj\Debug\net6.0\CandyMachine.AssemblyInfoInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\obj\Debug\net6.0\CandyMachine.AssemblyInfo.cs
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\obj\Debug\net6.0\CandyMachine.csproj.CoreCompileInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\obj\Debug\net6.0\CandyMachine.dll
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\obj\Debug\net6.0\ref\CandyMachine.dll
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\obj\Debug\net6.0\CandyMachine.pdb
+C:\Users\johny\Documents\SourceTree\projet01\CandyMachine\obj\Debug\net6.0\CandyMachine.genruntimeconfig.cache

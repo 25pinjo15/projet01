@@ -13,3 +13,18 @@ C:\Users\johny\Documents\Rider Project\projet01\MenuTest\obj\Debug\net6.0\MenuTe
 C:\Users\johny\Documents\Rider Project\projet01\MenuTest\obj\Debug\net6.0\ref\MenuTest.dll
 C:\Users\johny\Documents\Rider Project\projet01\MenuTest\obj\Debug\net6.0\MenuTest.pdb
 C:\Users\johny\Documents\Rider Project\projet01\MenuTest\obj\Debug\net6.0\MenuTest.genruntimeconfig.cache
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\bin\Debug\net6.0\MenuTest.exe
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\bin\Debug\net6.0\MenuTest.deps.json
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\bin\Debug\net6.0\MenuTest.runtimeconfig.json
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\bin\Debug\net6.0\MenuTest.dll
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\bin\Debug\net6.0\ref\MenuTest.dll
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\bin\Debug\net6.0\MenuTest.pdb
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\obj\Debug\net6.0\MenuTest.csproj.AssemblyReference.cache
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\obj\Debug\net6.0\MenuTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\obj\Debug\net6.0\MenuTest.AssemblyInfoInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\obj\Debug\net6.0\MenuTest.AssemblyInfo.cs
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\obj\Debug\net6.0\MenuTest.csproj.CoreCompileInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\obj\Debug\net6.0\MenuTest.dll
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\obj\Debug\net6.0\ref\MenuTest.dll
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\obj\Debug\net6.0\MenuTest.pdb
+C:\Users\johny\Documents\SourceTree\projet01\MenuTest\obj\Debug\net6.0\MenuTest.genruntimeconfig.cache
