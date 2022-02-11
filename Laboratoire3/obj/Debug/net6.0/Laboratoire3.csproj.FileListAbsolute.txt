@@ -1,0 +1,15 @@
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\obj\Debug\net6.0\Laboratoire3.csproj.AssemblyReference.cache
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\obj\Debug\net6.0\Laboratoire3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\obj\Debug\net6.0\Laboratoire3.AssemblyInfoInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\obj\Debug\net6.0\Laboratoire3.AssemblyInfo.cs
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\obj\Debug\net6.0\Laboratoire3.csproj.CoreCompileInputs.cache
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\bin\Debug\net6.0\Laboratoire3.exe
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\bin\Debug\net6.0\Laboratoire3.deps.json
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\bin\Debug\net6.0\Laboratoire3.runtimeconfig.json
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\bin\Debug\net6.0\Laboratoire3.dll
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\bin\Debug\net6.0\ref\Laboratoire3.dll
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\bin\Debug\net6.0\Laboratoire3.pdb
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\obj\Debug\net6.0\Laboratoire3.dll
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\obj\Debug\net6.0\ref\Laboratoire3.dll
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\obj\Debug\net6.0\Laboratoire3.pdb
+C:\Users\johny\Documents\SourceTree\projet01\Laboratoire3\obj\Debug\net6.0\Laboratoire3.genruntimeconfig.cache

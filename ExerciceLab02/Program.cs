@@ -177,7 +177,7 @@ namespace ExerciceLab02
             
             // Varible
             int nombre = 0;
-            string validation = "";
+            // string validation = ""; // unused old idea
             
             // Main
             Console.WriteLine("Divise par 5 mais pas 7");
