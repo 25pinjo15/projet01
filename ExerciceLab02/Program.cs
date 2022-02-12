@@ -76,7 +76,6 @@ namespace ExerciceLab02
             int result = 0;
 
             // Main
-            Console.ReadLine();
             Console.Clear();
             Console.Write("Entrez un nombre :");
             input = Convert.ToInt32(Console.ReadLine());
