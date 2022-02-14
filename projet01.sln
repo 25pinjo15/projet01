@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandyMachine", "CandyMachin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratoire3", "Laboratoire3\Laboratoire3.csproj", "{2AD03666-C709-4C32-8027-C9C35F18E405}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratoire04", "Laboratoire04\Laboratoire04.csproj", "{616F561B-34A4-4F14-AF34-E4D9F24E41A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{2AD03666-C709-4C32-8027-C9C35F18E405}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AD03666-C709-4C32-8027-C9C35F18E405}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AD03666-C709-4C32-8027-C9C35F18E405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616F561B-34A4-4F14-AF34-E4D9F24E41A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616F561B-34A4-4F14-AF34-E4D9F24E41A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616F561B-34A4-4F14-AF34-E4D9F24E41A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616F561B-34A4-4F14-AF34-E4D9F24E41A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

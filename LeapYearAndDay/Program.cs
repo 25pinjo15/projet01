@@ -1,6 +1,6 @@
 ﻿/* Program to show day number in any given month 
  *
- * === TODO ===
+ * 
  * - Put thing to detect string as input because it crash :)
  * 
  */
