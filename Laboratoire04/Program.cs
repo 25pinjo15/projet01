@@ -82,105 +82,294 @@ namespace Laboratoire04
 
 
         /*
-         * Écrire un programme C# qui demande un nombre compris entre 10 et 20, jusqu’à ce que la
-            réponse convienne. En cas de réponse supérieure à 20, on fera apparaître un message : « Plus
-            petit ! », et inversement, « Plus grand ! » si le nombre est inférieur à 10.
+         * Écrire un programme en C# qui demande à l’utilisateur 5 nombres. Il affiche finalement les
+nom     bres entrés. L’utilisation d’un tableau est obligatoire.
          */
 
         private static void Num4dot2()
         {
+            // === Variable declaration ===
+            int[] input = new int[]{0, 0, 0, 0, 0};
+            
+            // === Main ===
+            Console.Clear();
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write($"Entrez nombre {i+1} : ");
+                input[i] = int.Parse(Console.ReadLine());
+            }
+            Console.Write("Les nombre sont :");
+            foreach (var VARIABLE in input)
+            {
+                Console.Write(" "+VARIABLE.ToString());
+            }
+            
             EndOfFunction();
         }
 
 
         /*
-         * Analysez le programme C# suivant et répondez aux questions suivantes :
-            3.3.1 Quelle est l’instruction qui permet de modifier le résultat du test de sortie de boucle (dans le while ) ?
-            3.3.2 Quel sera le résultat en supposant que l’utilisateur entre les valeurs 30 et 42.
-            Exécutez le programme à la main (pour vous aider, construisez le tableau de trace des variables).
-            3.3.3 Quel sera le résultat en supposant que l’utilisateur entre les valeurs 35 et 6.
-            Exécutez le programme à la main (pour vous aider, construisez le tableau de trace des variables).
-            3.3.4 Quel est le calcul réalisé par ce programme, a quoi sert ce programme ?
+         * 4.3) Reprendre l’algorithme précédent et affichez plutôt la moyenne des nombres entrés.
          */
         private static void Num4dot3()
         {
-            // === Variable declaration
-
-            // === Main
+            // === Variable declaration ===
+            int[] input = new int[]{0, 0, 0, 0, 0};
+            int moy = 0;
+            // === Main ===
+            Console.Clear();
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write($"Entrez nombre {i+1} : ");
+                input[i] = int.Parse(Console.ReadLine());
+            }
+            
+            foreach (var VARIABLE in input)
+            {
+                moy = moy + VARIABLE;
+                
+            }
+            
+            moy = moy / (input.Length);
+            Console.WriteLine($"La moyenne des nombre est de : {moy}");
             EndOfFunction();
         }
 
+        
+
 
         /*
-         * Écrire un programme C# qui demande un nombre à l'utilisateur et calcule sa factorielle.
+         * 4.4) Écrire un programme C# qui demande à l’utilisateur 5 nombres. Il affiche ensuite la plus
+         *  grande valeur entrée en précisant quelle position réelle (humaine) elle occupe dans le tableau.
          */
         private static void Num4dot4()
         {
             // === Variable declaration
 
-            // === Main
+            int biggest = 0;                // variable used in loop , get the biggest of each one
+            var test = new int[5];          // array for test number
+            int index;                      // Place where the biggest is
+            
+            // === main
+
+            // Will set the value in an array to test it in a for loop after
+            for (int i = 0; i <= 4; i++)
+            {
+                Console.Clear();
+                Console.WriteLine($"entrer le nombre entier # {i + 1}");
+                test[i] = int.Parse(Console.ReadLine());
+            }
+
+            for (int i = 0; i < 5; i++) // Loop to test each variable vs input5 and write the biggest
+            {
+                if (test[i] > biggest)
+                {
+                    biggest = test[i];
+                }
+            }
+
+            index = Array.IndexOf(test, biggest);
+
+            Console.WriteLine($"Le plus grand nombre est {biggest} et ocupe la place {index+1} dans le tableau");
+
             EndOfFunction();
         }
 
 
         /*
-         * Écrivez un programme de type devinette qui tire un chiffre au hasard entre 0 et 9 et demande
-            à l’utilisateur de deviner ce nombre jusqu’à-ce qu’il le trouve. Suivez le étapes suivantes :
-            1. Tirer le nombre au hasard
-            2. Demander un nombre à l’utilisateur
-            3. Tant que le nombre lu est différent du nombre tiré au hasard
-                A) Demande un nombre à l’utilisateur
-                B) Compter le nombre de boucles (essaie) effectuées
-            4. Afficher un message de réussite ainsi que le nombre d’essaies nécessaires
-            5. N.B. Pour tirer un nombre aléatoire : new Random().Next(0,9)
-
+        4.5) Écrire un programme C# qui remplis aléatoirement de chiffres (compris entre 0 et 9) deux
+        tableaux de départ de 8 éléments. Il crée ensuite un troisième tableau composé de la
+        multiplication des éléments des deux tableaux de même indice et affiche les résultats à l’écran
+        comme suit :
          */
         private static void Num4dot5()
         {
             // === Variable declaration
-
+            int[] array1 = new int[8];
+            int[] array2 = new int[8];
+            int[] result = new int[8];
+            Random rnd = new Random();
             // === Main
+            for (int i = 0; i < array1.Length; i++)     //Input all value in first array
+            {
+                array1[i] = rnd.Next(0, 9);
+            }
+            
+            for (int i = 0; i < array2.Length; i++)     // Input all the value in the second array
+            {
+                array2[i] = rnd.Next(0, 9);
+            }
+            
+            for (int i = 0; i < array1.Length; i++)     //Multiply array1 by array2 and store in result
+            {
+                result[i] = array1[i] * array2[i];
+            }
+            Console.Clear();
+            Console.WriteLine("Tableau 1 = " + "[{0}]", string.Join(", ", array1));
+            Console.WriteLine("Tableau 2 = " + "[{0}]", string.Join(", ", array2));
+            Console.WriteLine("Resultats = " + "[{0}]", string.Join(", ", result));
             EndOfFunction();
         }
 
 
         /*
-         *  Reprenez le programme précédent (3.5) mais :
-                1. En faisant tirer au hasard un nombre entre 0 et 50
-                2. Afficher « trop bas/haut » si la valeur devinée est trop petite/grande
-         */
+        *  4.6) Écrire un programme C# qui demande à l’utilisateur 9 notes à l’utilisateur (sur 100, non
+        *nécessaire de valider). Il retourne ensuite le nombre de notes supérieures à la moyenne de la
+        *classe. L’affichage doit être identique à celui-ci.
+        */
         private static void Num4dot6()
         {
             // === Variable declaration
+            int[] note = new int[9];
+            int median = 0;
+            int nbNoteOver = 0;
 
             // === Main
+            Console.Clear();
+            
+            for (int i = 0; i < note.Length; i++)    // Enter all the note in the array
+            {
+                Console.Write($"Entrer note # {i+1} : ");
+                note[i] = int.Parse(Console.ReadLine());
+            }
+
+            for (int i = 0; i < note.Length; i++)   // Add all the array value to the median before calculation
+            {
+                median = median + note[i];
+            }
+
+            median = median / (note.Length);        // Calculate the median by the number of space in the array
+            
+            for (int i = 0; i < note.Length; i++)   // Compare each value in the array to the median
+            {
+                if (note[i] > median)
+                {
+                    nbNoteOver++;                   // Add 1 to nb of note over the median if true
+                }
+                
+            }
+            Console.WriteLine($"Nombre de notes > moyenne = {nbNoteOver}");
             EndOfFunction();
         }
 
 
-        /* 3.7
-         * Écrire un programme C# qui demande un nombre de départ qui doit obligatoirement être pair
-        (boucle « do… while ») sinon on redemande un nombre, et qui ensuite affiche les dix nombres
-        suivants par saut de 2 (boucle « for »). Par exemple, si l'utilisateur entre le nombre 18, le
-        programme affichera de 18 à 38.
+        /* 4.7) Écrire un programme en C# qui demande à l’utilisateur à l’utilisateur 20 chiffres (0 à 9 validés
+        par le système c’est à dire que si on entre 10, il faut demander à nouveau) et qui construit
+        ensuite un tableau contenant le nombre d’occurrence pour chaque chiffre de 0 à 9 et l’affiche
+        à l’écran.
          */
         private static void Num4dot7()
         {
             // === Variable declaration
+            int[] theArray = new int[20];           // Array for user input
+            int[] resultArray = new int [10];       // Array for each time a number is entered
+            int input;
 
             // === Main
+            
+            for (int i = 0; i < theArray.Length; i++)
+            {
+                do
+                {
+                        Console.Clear();
+                        Console.Write($"Entrez le chiffre # {i+1} / 20 : ");
+                        input = int.Parse(Console.ReadLine());
+                        
+                    if (input > 9) // Message for to big value
+                    {
+                        Console.WriteLine("La valeur est trop grande! Entre 0-9 inclus\n" +
+                                          "Appuyer sur enter pour essayer encore");
+                        Console.ReadLine();
+                    }
+                    else if (input < 0) // Message for to small value
+                    {
+                        Console.WriteLine("La valeur est trop petite! Entre 0-9 inclus\n" +
+                                          "Appuyer sur enter pour essayer encore");
+                        Console.ReadLine();
+                    }
+                } while (input is > 9 or < 0);
+
+                theArray[i] = input; // When the condition are right the input is set in the correct array
+            }
+
+            for (int i = 0; i < theArray.Length; i++) // There is better way to do that but to follow the class 
+            {                                         // this will add each time a number is used in another array
+                switch (theArray[i])
+                {
+                    case 0:
+                        resultArray[0]++;
+                        break;
+                    case 1:
+                        resultArray[1]++;
+                        break;
+                    case 2:
+                        resultArray[2]++;
+                        break;
+                    case 3:
+                        resultArray[3]++;
+                        break;
+                    case 4:
+                        resultArray[4]++;
+                        break;
+                    case 5:
+                        resultArray[5]++;
+                        break;
+                    case 6:
+                        resultArray[6]++;
+                        break;
+                    case 7:
+                        resultArray[7]++;
+                        break;
+                    case 8:
+                        resultArray[8]++;
+                        break;
+                    case 9:
+                        resultArray[9]++;
+                        break;
+                    default:
+                        Console.WriteLine("You should not see this hehe");
+                        break;
+                }
+            }
+
+            for (int i = 0; i < resultArray.Length; i++)
+            {
+                Console.WriteLine($"{i} --> {resultArray[i]}"); // Write the result
+            }
+
+            
             EndOfFunction();
         }
 
 
-        /*  3.8) Écrire un programme C# qui demande successivement 5 nombres enter positif à l’utilisateur,
-             et qui lui dit ensuite quel était le plus grand parmi ces 5 nombres.
+        /*
+         * 4.8) Écrire un programme en C# qui demande à l’utilisateur une quantité déterminée par vous de
+         *nombres à entrer et qui affiche ensuite ces nombres triés de façon décroissante.
         */
         private static void Num4dot8()
         {
+            
             // === Variable declaration
+            int[] theArray = new int[15];           // Array for user input, its scalable by only modifying the array nb
+            int input;
 
             // === Main
+            
+            for (int i = 0; i < theArray.Length; i++)
+            {
+               
+                    Console.Clear();
+                    Console.Write($"Entrez le chiffre # {i+1} / 15 : ");
+                    theArray[i] = int.Parse(Console.ReadLine());
+            }
+            
+            Array.Sort(theArray);           // Sort the array in ascending order
+            Array.Reverse(theArray);        // Reverse the ascending order to descending
+            Console.Write("Voici votre lise en ordre decroissant : ");
+            foreach (var value in theArray)     // Print out the result for each value in the array
+            {
+                Console.Write($" {value},");
+            }
             EndOfFunction();
         }
         
