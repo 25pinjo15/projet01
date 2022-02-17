@@ -29,6 +29,9 @@ namespace Laboratoire04
                               "|6. exercise 4.6                          |\n" +
                               "|7. exercise 4.7                          |\n" +
                               "|8. exercise 4.8                          |\n" +
+                              "|9. exercise Bonus 7.1                    |\n" +
+                              "|10. exercise Bonus 7.2                   |\n" +
+                              "|11. exercise Bonus 7.3                   |\n" +
                               "*******************************************");
             switch (Console.ReadLine()) // Read input and case it or reject it
             {
@@ -55,6 +58,15 @@ namespace Laboratoire04
                     return true;
                 case "8":
                     Num4dot8();
+                    return true;
+                case "9":
+                    Num7dot1();
+                    return true;
+                case  "10":
+                    Num7dot2();
+                    return true;
+                case "11":
+                    Num7dot3();
                     return true;
                
                 case "quit": // Will return false to Main so it stop the prog
@@ -373,8 +385,105 @@ nom     bres entrés. L’utilisation d’un tableau est obligatoire.
             EndOfFunction();
         }
         
+        
+        /*7.1) Écrivez un programme pour déclarer un tableau, puis saisissez ses éléments par l'utilisateur
+        et affichez tous les éléments négatifs.
+        */
+        private static void Num7dot1()
+        {
+            
+            // === Variable declaration
+            int nbElement;
+            List<int> negativeOne = new List<int>();        // Create a dynamic array to enter every - number in it
 
+            // === Main
+            Console.Clear();
+            Console.Write("Saisir le nombre d'element(s) : ");
+            nbElement = int.Parse(Console.ReadLine());
+            
+            int[] theArrayYay = new int[nbElement];         // Create the array the size of the user entered
+            
+            Console.WriteLine("Entrer des element positif et negatif"); // Enter the user input in the array
+            for (int i = 0; i < theArrayYay.Length; i++)
+            {
+                Console.Write($"Element # {i+1} : ");
+                theArrayYay[i] = int.Parse(Console.ReadLine());
+            }
 
+            foreach (var value in theArrayYay)      // Check if every value is negative and if yess add it to anoter
+                                                        // array
+            {
+                if (value < 0)
+                {
+                    negativeOne.Add(value);
+                }
+            }
+            Console.Write("Les elements negatif sont :"); // Write everything that the negative array have
+            foreach (var value in negativeOne)
+            {
+                Console.Write($"{value} ");
+            }
+            EndOfFunction();
+        }
+
+        private static void Num7dot2()
+        {
+            // === Variable declaration ===
+            int[] theArray = new int[5];           // Array for user input, its scalable by only modifying the array nb
+            int input;
+
+            // === Main
+            Console.Clear();
+            Console.WriteLine("Entre des elements pour avoir le plus gros et le deuxieme plus gros");
+            for (int i = 0; i < theArray.Length; i++)
+            {
+                Console.Clear();
+                Console.Write($"Ellement # {i+1} / 5 : ");
+                theArray[i] = int.Parse(Console.ReadLine());
+            }
+            
+            Array.Sort(theArray);           // Sort the array in ascending order
+            Array.Reverse(theArray);        // Reverse the ascending order to descending
+            Console.WriteLine($"Le premier grand nombre est {theArray[0]}");
+            Console.Write($"Le deuxieme grand nombre est {theArray[1]}");
+            
+            EndOfFunction();
+        }
+
+        private static void Num7dot3()
+        {
+            // === Variable declaration ===
+            int[] theNoNameArray = new int[5]; // An array so the end user can write is number\
+            int pair = 0;
+            int impair = 0;
+            // === Main ===
+            Console.Clear();
+            Console.WriteLine("Entrez des nombre pair et impair");
+            for (int i = 0; i < theNoNameArray.Length; i++)
+            {
+                Console.Write($"Ellement # {i+1} / 5 : ");
+                theNoNameArray[i] = int.Parse(Console.ReadLine());
+            }
+
+            foreach (var VARIABLE in theNoNameArray)
+            {
+                if (VARIABLE % 2 == 0)
+                {
+                    pair++;
+                }
+                else
+                {
+                    impair++;
+                }
+            }
+            Console.WriteLine($"Nombre d'element(s) pair(s) : {pair}");
+            Console.WriteLine($"Nombre d'element(s) impair(s) : {impair}");
+            
+            EndOfFunction();
+        }
+
+        
+        
         // === when called , pause and ask to press enter to return to main menu
         private static void EndOfFunction()
         {
