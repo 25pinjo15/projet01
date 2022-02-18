@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapYard", "ScrapYard\Scra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evaluation1", "Evaluation1\Evaluation1.csproj", "{A5DC2F58-CDE1-4BCC-9601-D12692690176}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratoire06", "Laboratoire06\Laboratoire06.csproj", "{321AC1C8-23E1-4AA0-8E5B-85DF2C9CBA30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{A5DC2F58-CDE1-4BCC-9601-D12692690176}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5DC2F58-CDE1-4BCC-9601-D12692690176}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5DC2F58-CDE1-4BCC-9601-D12692690176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321AC1C8-23E1-4AA0-8E5B-85DF2C9CBA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321AC1C8-23E1-4AA0-8E5B-85DF2C9CBA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321AC1C8-23E1-4AA0-8E5B-85DF2C9CBA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321AC1C8-23E1-4AA0-8E5B-85DF2C9CBA30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

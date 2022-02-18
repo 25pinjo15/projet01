@@ -32,6 +32,8 @@ namespace Laboratoire04
                               "|9. exercise Bonus 7.1                    |\n" +
                               "|10. exercise Bonus 7.2                   |\n" +
                               "|11. exercise Bonus 7.3                   |\n" +
+                              "|12. exercise Bonus 7.4                   |\n" +
+                              "|13. exercise Bonus 7.5                   |\n" +
                               "*******************************************");
             switch (Console.ReadLine()) // Read input and case it or reject it
             {
@@ -67,6 +69,12 @@ namespace Laboratoire04
                     return true;
                 case "11":
                     Num7dot3();
+                    return true;
+                case "12":
+                    Num7dot4();
+                    return true;
+                case "13":
+                    Num7dot5();
                     return true;
                
                 case "quit": // Will return false to Main so it stop the prog
@@ -204,12 +212,12 @@ nom     bres entrés. L’utilisation d’un tableau est obligatoire.
             // === Main
             for (int i = 0; i < array1.Length; i++)     //Input all value in first array
             {
-                array1[i] = rnd.Next(0, 9);
+                array1[i] = rnd.Next(0, 10);
             }
             
             for (int i = 0; i < array2.Length; i++)     // Input all the value in the second array
             {
-                array2[i] = rnd.Next(0, 9);
+                array2[i] = rnd.Next(0, 10);
             }
             
             for (int i = 0; i < array1.Length; i++)     //Multiply array1 by array2 and store in result
@@ -482,6 +490,133 @@ nom     bres entrés. L’utilisation d’un tableau est obligatoire.
             EndOfFunction();
         }
 
+        private static void Num7dot4()
+        {
+            // === Variable declaration
+            int[] array_1 = new int[5];
+            int[] array_2 = new int[5];
+            int tmp = 0;
+            // === Main ===
+            Console.Clear();
+            Console.WriteLine("Entrez les valeur du 1er tableau");
+            for (int i = 0; i < array_1.Length; i++)
+            {
+                Console.Write($"Entre le nombre #{i+1} : ");
+                array_1[i] = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("Maintenant le 2er tableau");
+            for (int i = 0; i < array_2.Length; i++)
+            {
+                Console.Write($"Entre le nombre #{i+1} : ");
+                array_2[i] = int.Parse(Console.ReadLine());
+            }
+            
+            Console.Clear();
+            Console.WriteLine("Avant :");
+            Console.WriteLine("Element tableau 1 :");
+            for (int i = 0; i < array_1.Length; i++)
+            {
+                Console.WriteLine($"Nombre # {i+1} : {array_1[i]}");
+            }
+            Console.WriteLine("Element tableau 2 :");
+            for (int i = 0; i < array_2.Length; i++)
+            {
+                Console.WriteLine($"Nombre # {i+1} : {array_2[i]}");
+            }
+
+            for (int i = 0; i < array_1.Length; i++)        // Interchange the array
+            {
+                tmp = array_1[i];
+                array_1[i] = array_2[i];
+                array_2[i] = tmp;
+            }
+            
+            Console.WriteLine("Apres :");
+            Console.WriteLine("Element tableau 1 :");
+            for (int i = 0; i < array_1.Length; i++)
+            {
+                Console.WriteLine($"Nombre # {i+1} : {array_1[i]}");
+            }
+            Console.WriteLine("Element tableau 2 :");
+            for (int i = 0; i < array_2.Length; i++)
+            {
+                Console.WriteLine($"Nombre # {i+1} : {array_2[i]}");
+            }
+            EndOfFunction();
+
+        }
+
+        private static void Num7dot5()
+        {
+            // === Variable declaration
+            int[] array_1 = new int[3];
+            int[] array_2 = new int[5];
+            int[] array_3 = new int[2];
+            int tmp = 0;
+            // === Main ===
+            Console.Clear();
+            Console.WriteLine("Entrez les valeur du 1er tableau");
+            for (int i = 0; i < array_1.Length; i++)
+            {
+                Console.Write($"Entre le nombre #{i+1} : ");            // Print all the value to their specified array
+                array_1[i] = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("Maintenant le 2er tableau");
+            for (int i = 0; i < array_2.Length; i++)
+            {
+                Console.Write($"Entre le nombre #{i+1} : ");
+                array_2[i] = int.Parse(Console.ReadLine());
+            }
+            
+            Console.Clear();
+            Console.WriteLine("Avant :");
+            Console.WriteLine("Element tableau 1 :");
+            for (int i = 0; i < array_1.Length; i++)                    // Display both array before the transformation
+            {
+                Console.WriteLine($"Nombre # {i+1} : {array_1[i]}");
+            }
+            Console.WriteLine("Element tableau 2 :");
+            for (int i = 0; i < array_2.Length; i++)
+            {
+                Console.WriteLine($"Nombre # {i+1} : {array_2[i]}");
+            }
+
+            
+            
+            for (int i = 0; i < array_1.Length; i++)        // Interchange the array
+            {
+                tmp = array_1[i];
+                array_1[i] = array_2[i];
+                array_2[i] = tmp;
+            }
+
+            for (int i = 3; i < array_2.Length; i++)        // Interchange the extra number
+            {
+                
+                array_3[i-3] = array_2[i];
+                array_2[i] = 0;
+            }
+            
+            
+            
+            Console.WriteLine("Apres :");                       // Display the array after the modification
+            Console.WriteLine("Element tableau 1 :");
+            for (int i = 0; i < array_1.Length; i++)
+            {
+                Console.WriteLine($"Nombre # {i+1} : {array_1[i]}");
+            }
+            Console.WriteLine("Element tableau 2 :");
+            for (int i = 0; i < array_2.Length; i++)
+            {
+                Console.WriteLine($"Nombre # {i+1} : {array_2[i]}");
+            }
+            Console.WriteLine("Element tableau 3 :");
+            for (int i = 0; i < array_3.Length; i++)
+            {
+                Console.WriteLine($"Nombre # {i+1} : {array_3[i]}");
+            }
+            EndOfFunction();
+        }
         
         
         // === when called , pause and ask to press enter to return to main menu
