@@ -377,8 +377,7 @@ nom     bres entrés. L’utilisation d’un tableau est obligatoire.
             
             for (int i = 0; i < theArray.Length; i++)
             {
-               
-                    Console.Clear();
+                     Console.Clear();
                     Console.Write($"Entrez le chiffre # {i+1} / 15 : ");
                     theArray[i] = int.Parse(Console.ReadLine());
             }

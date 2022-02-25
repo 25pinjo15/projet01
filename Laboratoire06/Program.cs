@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
-
+using System.Diagnostics.SymbolStore;
 
 namespace Laboratoire06
 {
@@ -24,7 +24,7 @@ namespace Laboratoire06
             Console.WriteLine("*******************************************\n" +
                               "|Welcome to exercise Labo04               |\n" +
                               "|Hello enter a choice or type quit to exit|\n" +
-                              "|1. exercise 6.1                         |\n" +
+                              "|1. exercise 6.1                          |\n" +
                               "|2. exercise 6.2                          |\n" +
                               "|3. exercise 6.3                          |\n" +
                               "|4. exercise 6.4                          |\n" +
@@ -126,16 +126,16 @@ namespace Laboratoire06
             // === Main ===
             Console.Clear();
             Console.WriteLine("Entrer 5 valeur decimal pour avoir la somme (ex 3,54");
-            
-            for (int i = 0; i < tableau1.Length; i++)       // Let the user input variable for each space in tableau1
+
+            for (int i = 0; i < tableau1.Length; i++) // Let the user input variable for each space in tableau1
             {
-                Console.Write($"Entre le nombre #{i+1} : ");
+                Console.Write($"Entre le nombre #{i + 1} : ");
                 tableau1[i] = Decimal.Parse(Console.ReadLine());
             }
 
             sum = Sum(tableau1);
             Console.Write($"La somme de ces {tableau1.Length} est de {sum}");
-            
+
             EndOfFunction();
         }
 
@@ -150,7 +150,7 @@ namespace Laboratoire06
             double distance = 0d;
 
             // === Main ===
-            
+
             Console.Clear();
             Console.WriteLine("Entrer les coordonner de 2 point et vous aurez la distance entre ces 2 :");
             Console.Write("Entrer x1 : ");
@@ -171,45 +171,110 @@ namespace Laboratoire06
         public static void Num6dot4()
         {
             // === Variable declaration
+            string customRange = null;
             int column;
-            int range ;
+            int range;
             // === main
             Console.Clear();
             Console.Write("Comment de nombre voulez vous?: ");
             column = int.Parse(Console.ReadLine());
-            Console.Write("voulez vous entrer le range des nombre alleatoire ? (y/n)");
+
+            do
+
+            {
+                Console.Write("voulez vous entrer le range des nombre alleatoire ? (y/n)");
+                customRange = Console.ReadLine();
+
+                switch (customRange)
+                {
+                    case "y":
+                        Console.Write("D'accord , de 0 a ? : ");
+                        range = int.Parse(Console.ReadLine());
+                        foreach (var VARIABLE in RandomData(column, range))
+                        {
+                            Console.Write($"{VARIABLE} ");
+                        }
+
+                        break;
+                    case "n":
+                        Console.WriteLine("Ok le range par default sera 0-100");
+                        foreach (var VARIABLE in RandomData(column))
+                        {
+                            Console.Write($"{VARIABLE} ");
+                        }
+
+                        break;
+                    default:
+                        Console.WriteLine("Input invalide !");
+                        break;
+                }
+            } while ((customRange != "y") && (customRange != "n"));
+
+
+// TODO
+// Im trying to put what is above under a try catch ... 
+
+/*            
             switch (Console.ReadLine())
             {
                 case "y":
-                    Console.Write("D'accord , de 0 a ? : ");
-                    range = int.Parse(Console.ReadLine());
-                    foreach (var VARIABLE in RandomData(column, range))
-                    {
-                        Console.Write($"{VARIABLE} ");
-                    }
+                    Console.Write("D'accord, de 0 a combien ? : ");
+                     int range = int.Parse(Console.ReadLine());
                     break;
                 case "n":
-                    Console.WriteLine("Ok le range par default sera 0-100");
-                    foreach (var VARIABLE in RandomData(column))
-                    {
-                        Console.Write($"{VARIABLE} ");
-                    }
-                    break;
-                default:
+                    Console.WriteLine("Le range par default seras de 0-100");
                     break;
             }
 
-           
+            try
+            {
+                RandomData(column, range);
+            }
+            catch (Exception)
+            {
+                RandomData(column);
+                throw;
+                
+                
+            }
+  */
 
-                EndOfFunction();
+            EndOfFunction();
         }
 
 
         private static void Num6dot5()
         {
             // === Variable declaration
-
+            int x1;
+            int x2;
+            string exect = null;
+            int result = 0;
             // === Main
+            do
+
+            {
+                Console.Write("Vouler vous calculer la un nombe x1 avec son exposant x2 ? (y/n)");
+                exect = Console.ReadLine();
+
+                switch (exect)
+                {
+                    case "y":
+                        Console.Write("Entre x1 (nombre) : ");
+                        x1 = int.Parse(Console.ReadLine());
+                        Console.Write("entre x2 (puissance) : ");
+                        x2 = int.Parse(Console.ReadLine());
+                        result = Power(x1, x2);
+                        Console.WriteLine($"Resultat : {result}");
+                        break;
+                    case "n":
+                        Console.WriteLine("Ok ,Merci ! ");
+                        break;
+                    default:
+                        Console.WriteLine("Input invalide !");
+                        break;
+                }
+            } while ((exect != "n"));
 
             EndOfFunction();
         }
@@ -218,8 +283,25 @@ namespace Laboratoire06
         private static void Num6dot6()
         {
             // === Variable declaration
-
+            bool exectYesNo = false;
+            int x1;
+            int x2;
+            int result = 0;
             // === Main
+            do
+            {
+                exectYesNo = AnotherPpwer();
+                if (exectYesNo == true)
+                {
+                    Console.Write("Entre x1 (nombre) : ");
+                    x1 = int.Parse(Console.ReadLine());
+                    Console.Write("entre x2 (puissance) : ");
+                    x2 = int.Parse(Console.ReadLine());
+                    result = Power(x1, x2);
+                    Console.WriteLine($"Resultat : {result}");
+                }
+            } while (exectYesNo == true);
+
 
             EndOfFunction();
         }
@@ -228,8 +310,25 @@ namespace Laboratoire06
         private static void Num6dot7()
         {
             // === Variable declaration
+            int inputNumber;
+            double factorial;
+            bool tryParse = false;
 
-            // === Main
+
+            // === Main ===
+            Console.Clear();
+            do
+            {
+                Console.WriteLine("Entre un nombre entier ");
+                tryParse = int.TryParse(Console.ReadLine(), out inputNumber); // Read user input   
+            } while (tryParse != true);
+
+            factorial = Factorial(inputNumber); // Call the function  
+
+
+            Console.WriteLine($"factorial de {inputNumber} est : {factorial}"); // Print result
+
+
             EndOfFunction();
         }
 
@@ -237,8 +336,28 @@ namespace Laboratoire06
         private static void Num6dot8()
         {
             // === Variable declaration
-
+            int input = 0;
+            bool tryParse = false;
+            bool prime = false;
             // === Main
+            Console.Clear();
+
+            do
+            {
+                Console.Write("Entrer un nombre : ");
+                tryParse = int.TryParse(Console.ReadLine(), out input);
+            } while (tryParse != true);
+
+            prime = Prime(input);
+
+            if (prime == true)
+            {
+                Console.WriteLine($"{input} est un nombre premier.");
+            }
+            else
+            {
+                Console.WriteLine($"{input} est un nombre divisible.");
+            }
 
             EndOfFunction();
         }
@@ -268,8 +387,8 @@ namespace Laboratoire06
         //#################################################################################
         //================== MENU FONCTION ================================================
         //#################################################################################
-        
-        
+
+
         // === when called , pause and ask to press enter to return to main menu
         private static void EndOfFunction()
         {
@@ -282,15 +401,15 @@ namespace Laboratoire06
         //================== EXERCISE FUNCTION ============================================
         //#################################################################################
 
-        private static int Accumulator(int input_1, int input_2, int input_3, int input_4, int input_5)
+        public static int Accumulator(int input_1, int input_2, int input_3, int input_4, int input_5)
         {
             return input_1 + input_2 + input_3 + input_4 + input_5;
         }
 
         // ============
-        
-        
-        private static decimal Sum(decimal[] tableau1)
+
+
+        public static decimal Sum(decimal[] tableau1)
         {
             decimal sum1 = 0m;
             foreach (var VARIABLE in tableau1)
@@ -300,12 +419,12 @@ namespace Laboratoire06
 
             return sum1;
         }
-        
-        private static double Distance(double x1, double x2, double y1, double y2)
+
+        public static double Distance(double x1, double x2, double y1, double y2)
         {
             // === Variable declaration
-            
-            
+
+
             double distance = 0;
 
             distance = Math.Round(Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2)), 2);
@@ -317,7 +436,7 @@ namespace Laboratoire06
             // === Variable
             var rndTableau = new int[column];
             Random rnd = new Random();
-            
+
             // === Main of function
             for (int i = 0; i < column; i++)
             {
@@ -325,6 +444,81 @@ namespace Laboratoire06
             }
 
             return (rndTableau);
+        }
+
+        public static int Power(int x1, int x2)
+        {
+            // === Variable declaration ===
+            int result = x1;
+
+            // === Function main
+
+            for (int i = 1; i < x2; i++)
+            {
+                result = result * x1;
+            }
+
+            return result;
+        }
+
+        public static double Factorial(int number)
+        {
+            if (number == 0)
+                return 1;
+            return number * Factorial(number - 1); //Recursive call  
+        }
+
+        public static bool AnotherPpwer()
+        {
+            // === Variable declaration
+            string exect = null;
+            bool cont = false;
+            // === Main
+
+
+            do
+            {
+                Console.Write("Vouler vous calculer la un nombe x1 avec son exposant x2 ? (y/n)");
+                exect = Console.ReadLine();
+                switch (exect)
+                {
+                    case "y":
+                        return true;
+                    case "n":
+                        return false;
+                    default:
+                        Console.WriteLine("Input invalide !");
+                        break;
+                }
+            } while (exect is not ("y" or "n"));
+
+            return cont; // If anything go bad here I come
+        }
+
+
+        public static bool Prime(int input)
+        {
+            if (input == 2 || input == 3)
+                return true;
+
+            if (input <= 1 || input % 2 == 0 || input % 3 == 0)
+                return false;
+
+            for (int i = 5; i * i <= input; i += 6)
+            {
+                if (input % i == 0 || input % (i + 2) == 0)
+                    return false;
+            }
+
+            return true;
+        }
+
+        public static int Fibonacci(int input)
+        {
+            if (input <=2)
+                return 1;
+            else
+                return Fibonacci( input - 1 ) + Fibonacci( input - 2 );
         }
     }
 }
