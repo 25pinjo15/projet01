@@ -2,6 +2,7 @@
 
 
 using System.Diagnostics.SymbolStore;
+using System.Reflection.Emit;
 
 namespace Laboratoire06
 {
@@ -96,17 +97,17 @@ namespace Laboratoire06
             // === Main
             Console.Clear();
             Console.WriteLine("Entre 5 valeur pour en avoir la somme :");
+            
+            input_1 = UserNumberInput("Valeur #1 : ");
+            
+            input_2 = UserNumberInput("Valeur #2 : ");
 
-            Console.Write("Valeur #1 : ");
-            input_1 = int.Parse(Console.ReadLine());
-            Console.Write("Valeur #2 : ");
-            input_2 = int.Parse(Console.ReadLine());
-            Console.Write("Valeur #3 : ");
-            input_3 = int.Parse(Console.ReadLine());
-            Console.Write("Valeur #4 : ");
-            input_4 = int.Parse(Console.ReadLine());
-            Console.Write("Valeur #5 : ");
-            input_5 = int.Parse(Console.ReadLine());
+            input_3 = UserNumberInput("Valeur #3 : ");
+
+            input_4 = UserNumberInput("Valeur #4 : ");
+
+            input_5 = UserNumberInput("Valeur #5 : ");
+
             sum = Accumulator(input_1, input_2, input_3, input_4, input_5);
             Console.WriteLine($"La some est de : {sum}");
             EndOfFunction();
@@ -139,7 +140,10 @@ namespace Laboratoire06
             EndOfFunction();
         }
 
-
+        /*
+         * 6.3) Écrire une fonction Distance() ayant comme paramètres 4 nombres x1, y1 et x2, y2 qui
+        représentent les coordonnées de deux points 1 et 2 et qui renvoie la distance entre les points.
+         */
         private static void Num6dot3()
         {
             // === Variable declaration ===
@@ -153,21 +157,26 @@ namespace Laboratoire06
 
             Console.Clear();
             Console.WriteLine("Entrer les coordonner de 2 point et vous aurez la distance entre ces 2 :");
-            Console.Write("Entrer x1 : ");
-            x1 = int.Parse(Console.ReadLine());
-            Console.Write("Entrer y1 : ");
-            y1 = int.Parse(Console.ReadLine());
-            Console.Write("Entrer x2 : ");
-            x2 = int.Parse(Console.ReadLine());
-            Console.Write("Entrer y2 : ");
-            y2 = int.Parse(Console.ReadLine());
+            x1 = UserNumberInput("Entrer x1 : ");
+
+            y1 = UserNumberInput("Entrer y1 : ");
+
+            x2 = UserNumberInput("Entrer x2 : ");
+
+            y2 = UserNumberInput("Entrer y2 : ");
+
             distance = Distance(x1, x2, y1, y2);
             Console.Write($"La distance entre les points est de {distance}");
 
             EndOfFunction();
         }
 
-
+        /*
+         * 6.4) Écrire une fonction RandomNumbers() ayant en paramètre une quantité de nombre à entrer et
+        qui retourne un tableau remplis de nombre aléatoires en 0 et 100 qui sera ensuite affichés à l’écran à
+        partir de la fonction E04();. Il faut que l’algorithme ne génère l’objet Random() qu’une seule fois en
+        mémoire 
+         */
         public static void Num6dot4()
         {
             // === Variable declaration
@@ -210,7 +219,7 @@ namespace Laboratoire06
                 }
             } while ((customRange != "y") && (customRange != "n"));
 
-
+//**************************************************************************************
 // TODO
 // Im trying to put what is above under a try catch ... 
 
@@ -238,11 +247,15 @@ namespace Laboratoire06
                 
             }
   */
-
+//************************************************************************************
             EndOfFunction();
         }
 
-
+        /*
+         * 6.5) Écrivez une fonction Power() permettant de calculer la puissance de n’importe quel nombre.
+        Exemple 2 à la 4, 10 à la 5. Vous devez bien sur tout coder vous-même, pas le droit d’utiliser de
+        fonctions C#. L’algorithme se termine quand l’utilisateur ne veut plus faire de calcul ( N ).
+         */
         private static void Num6dot5()
         {
             // === Variable declaration
@@ -279,7 +292,10 @@ namespace Laboratoire06
             EndOfFunction();
         }
 
-
+        /*
+         * 6.6) Reprenez l’exercice précédent et, si ce n’est pas déjà le cas, transformer la demande de faire
+        d’autres calculs en fonction AnotherPower() Qui retourne une valeur booléenne (0 ou 1).
+         */
         private static void Num6dot6()
         {
             // === Variable declaration
@@ -288,15 +304,16 @@ namespace Laboratoire06
             int x2;
             int result = 0;
             // === Main
+            Console.Clear();
             do
             {
                 exectYesNo = AnotherPpwer();
                 if (exectYesNo == true)
                 {
-                    Console.Write("Entre x1 (nombre) : ");
-                    x1 = int.Parse(Console.ReadLine());
-                    Console.Write("entre x2 (puissance) : ");
-                    x2 = int.Parse(Console.ReadLine());
+                    x1 = UserNumberInput("Entrer x1 (Nombre) : ");
+
+                    x2 = UserNumberInput("Entrer x2 (puissance) : ");
+
                     result = Power(x1, x2);
                     Console.WriteLine($"Resultat : {result}");
                 }
@@ -305,49 +322,44 @@ namespace Laboratoire06
 
             EndOfFunction();
         }
-
+        /*
+        * 6.7) Lisez sur les fonctions récursives et créer un programme en C# avec une fonction récursive
+        permettant de calculer la factorielle d’un nombre demandé à l’utilisateur.
+        */
 
         private static void Num6dot7()
         {
             // === Variable declaration
             int inputNumber;
             double factorial;
-            bool tryParse = false;
-
-
+            
             // === Main ===
             Console.Clear();
-            do
-            {
-                Console.WriteLine("Entre un nombre entier ");
-                tryParse = int.TryParse(Console.ReadLine(), out inputNumber); // Read user input   
-            } while (tryParse != true);
-
+            inputNumber = UserNumberInput("Entrer un nombre entier pour la factoriel : ");
+            
             factorial = Factorial(inputNumber); // Call the function  
-
-
+            
             Console.WriteLine($"factorial de {inputNumber} est : {factorial}"); // Print result
-
-
+            
             EndOfFunction();
         }
 
-
+        /*
+        * 6.8) Écrire une fonction Prime() ayant en paramètre un nombre et qui renvoie une valeur booléenne
+        si le nombre entré est un nombre premier. L’algorithme se termine lorsque l’utilisateur entre un zéro
+        (0). Aucune des fonctions C# ne seront acceptées, vous devez bien sur coder l’algorithme du nombre
+        premier.
+        */
         private static void Num6dot8()
         {
             // === Variable declaration
             int input = 0;
-            bool tryParse = false;
             bool prime = false;
             // === Main
             Console.Clear();
 
-            do
-            {
-                Console.Write("Entrer un nombre : ");
-                tryParse = int.TryParse(Console.ReadLine(), out input);
-            } while (tryParse != true);
-
+            input = UserNumberInput("Entrer un nombnre : ");
+            
             prime = Prime(input);
 
             if (prime == true)
@@ -362,24 +374,109 @@ namespace Laboratoire06
             EndOfFunction();
         }
 
-
+        /*
+        * 6.9) Écrire un programme C# qui demande un nombre x et affiche les x premiers nombre de cette
+        série [1, 1, 2, 3, 5, 8, 13, ...] (suite de Fibonacci) en mode récursif.
+        Double-défi, écrire proprement la fonction récursive en 2 ligne de code !
+         */
         private static void Num6dot9()
         {
             // === Variable declaration
-
+            int position;
+            double fibonacci;
+            bool tryparse;
+            
 
             // === Main
-
+            Console.Clear();
+            position = UserNumberInput("Entrez une position de la suite de fibonacci : ");
+            
+            fibonacci = Fibonacci(position);
+            
+            Console.WriteLine($"Le nombre {position} de la suite de Fibonacci est : {fibonacci}");
             EndOfFunction();
         }
 
-
+        /*
+         * 6.10) Inventer un algorithme qui nécessite l’utilisation d’une fonction qui fait appel à une autre
+        fonction, toutes deux développées par vous (pas de fonctions C#)
+         */
         private static void Num6dot10()
         {
             // === Variable declaration ===
-
+            bool exit = false;
+            bool wantSum = false;
+            bool tryparse;
+            int x1;
+            int x2;
+            decimal sum = 0;
+            
             // === Main ===
+            Console.Clear();
+            Console.WriteLine("On va cree un array de votre choix");
+            var theArray = CreateArray();
+            Console.Write("Voulez vous le remplir de nomhre aleatoir ?");
+            do
+            {
+                Console.Write("Voulez vous le remplir de nomhre aleatoir ? (y/n)");
+                switch (Console.ReadLine())
+                {
+                    case "y":
+                        Console.WriteLine("De combien a combien ?");
+                        x1 = UserNumberInput("De :");
+                        x2 = UserNumberInput("A : ");
+                        theArray = RandomData2(theArray, x1, x2);
+                        exit = true;
+                        break;
+                    case "n":
+                        Console.WriteLine("Okay... un array vide alors.");
+                        exit = true;
+                        break;
+                    default:
+                        Console.WriteLine("L'entre est invalide");
+                        Console.Clear();
+                        break;
+                }
+            } while (exit != true);
+            
+            Console.WriteLine("Voici votre array :");
+            
+            foreach (var VARIABLE in theArray)
+            {
+                Console.Write($" {VARIABLE},");
+            }
+            Console.WriteLine(); // Line step
 
+            exit = false;       // Reset the variable exit for the selection
+            do
+            {
+                Console.Write("En voulez vous la somme ? (y/n)");
+                switch (Console.ReadLine())
+                {
+                    case "y":
+                        
+                        //Array.ConvertAll(theArray, x => (decimal)x);
+                        
+                        sum = Sum2(theArray);
+                        exit = true;
+                        wantSum = true;
+                        break;
+                    case "n":
+                        Console.WriteLine("Okay... A la prochaine !");
+                        exit = true;
+                        break;
+                    default:
+                        Console.WriteLine("L'entre est invalide");
+                        Console.Clear();
+                        break;
+                }
+            } while (exit != true);
+
+            if (wantSum == true)
+            {
+                Console.WriteLine($"Voici votre somme : {sum}");
+            }
+            
             EndOfFunction();
         }
 
@@ -419,14 +516,23 @@ namespace Laboratoire06
 
             return sum1;
         }
+        
+        public static decimal Sum2(int[] tableau1)
+        {
+            int sum1 = 0;
+            foreach (var VARIABLE in tableau1)
+            {
+                sum1 = sum1 + VARIABLE;
+            }
+
+            return sum1;
+        }
 
         public static double Distance(double x1, double x2, double y1, double y2)
         {
             // === Variable declaration
-
-
             double distance = 0;
-
+            // === Function main
             distance = Math.Round(Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2)), 2);
             return distance;
         }
@@ -513,12 +619,75 @@ namespace Laboratoire06
             return true;
         }
 
-        public static int Fibonacci(int input)
+        public static double Fibonacci(int input)
         {
-            if (input <=2)
+            if (input <= 2)
+            {
                 return 1;
+            }
             else
-                return Fibonacci( input - 1 ) + Fibonacci( input - 2 );
+            {
+                return Fibonacci(input - 1) + Fibonacci(input - 2);
+            }
+        }
+
+        public static int[] CreateArray()
+        {
+            // === Variable declaration
+            int arraySize;
+            string style = null;
+            // === Function main
+            
+            int[] outArray = new int[UserNumberInput("Grosseur de votre tableau ?")];
+            return outArray;
+
+        }
+
+        public static int UserNumberInput(string texte = "")
+        {
+            // === Variable declaration
+            int output = 0;
+            bool tryParse = false;
+            // === Function main
+
+            do
+            {
+                Console.Write(texte);
+                tryParse = int.TryParse(Console.ReadLine(), out output);
+            } while (tryParse != true);
+            
+            return (output);
+
+        }
+        
+        public static int[] RandomData2(int[] arrayIn, int x1, int x2)
+        {
+            // === Variable
+            
+            Random rnd = new Random();
+
+            // === Main of function
+            for (int i = 0; i < arrayIn.Length; i++)
+            {
+                arrayIn[i] = rnd.Next(x1, x2);
+            }
+
+            return (arrayIn);
+        }
+        
+        public static string UserStringInput(string texte = "")
+        {
+            // === Variable declaration
+            string output = null;
+            // === Function main
+
+            
+                Console.WriteLine(texte);
+                output = Console.ReadLine();
+
+                return output;
+
         }
     }
+    
 }
