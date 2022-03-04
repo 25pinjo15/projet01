@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿//Labo 06 Johny Pineault
 
 
 using System.Diagnostics.SymbolStore;
