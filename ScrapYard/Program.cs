@@ -1,7 +1,7 @@
 ﻿// =================================== This is a menu template ===========================================
 
-/*
-namespace Laboratoire04
+
+namespace ScrapYard
 {
     class Program
     {
@@ -197,9 +197,49 @@ namespace Laboratoire04
             Console.ReadLine();
             Console.Clear();
         }
+        
+        
+        
+        
+        
+        
+        public static int UserNumberInput(string texte = "")
+        {
+            // === Variable declaration
+            int output = 0;
+            bool tryParse = false;
+            // === Function main
+
+            do
+            {
+                Console.Write(texte);
+                tryParse = int.TryParse(Console.ReadLine(), out output);
+            } while (tryParse != true);
+            
+            return (output);
+
+        }
+        public static string UserStringInput(string texte = "")
+        {
+            // === Variable declaration
+            string output = null;
+            // === Function main
+
+            
+            Console.WriteLine(texte);
+            output = Console.ReadLine();
+
+            return output;
+
+        }
+        
     }
+    
+    
+    
+    
 }
-*/
+
 
 // =================================== This is something else ============================================
 
