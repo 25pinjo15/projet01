@@ -190,6 +190,12 @@ namespace ScrapYard
             EndOfFunction();
         }
 
+        
+        
+        // ###########################################################################################################
+        
+        
+        
         // === when called , pause and ask to press enter to return to main menu
         private static void EndOfFunction()
         {
@@ -201,8 +207,8 @@ namespace ScrapYard
         
         
         
-        
-        
+        // ############################################################################################################
+
         public static int UserNumberInput(string texte = "")
         {
             // === Variable declaration
@@ -236,7 +242,126 @@ namespace ScrapYard
     }
     
     
+    //#################################################################################################################
     
+    
+    public static int NewUserNumberInput(int lenght = 1, string texte = "", bool sound = false,
+        bool errorHandle = true)
+    {
+        ConsoleKeyInfo userInput;
+        char? userInputString = null;
+        string? output = null;
+        int finalOutput;
+        bool tryParse = false; // Used for try parse if we dont enter number 
+
+
+        do
+        {
+            Console.SetCursorPosition(0, Console.CursorTop); // Replace the cursor at the start of the line
+
+            Console.Write(texte); //Write text if there is any
+
+            finalOutput = 0; // Lets reset the value , used with while try parse
+            output = null; // Lets reset the value , used with while try parse
+
+            // For the leng of number total we will run it . ex : 05 or 14 is lenght 2 
+            for (int i = 0; i < lenght; i++)
+            {
+                userInput = Console.ReadKey(); // Read the key to special magic char
+                userInputString = userInput.KeyChar; // Convert the magic char to only single char
+                output = output +
+                         userInputString; // Add the char to a string if the number is more than 1 digit
+
+                // If sound is true will beep each time a key is pressed
+                if (sound == true)
+                {
+                    SoundLibrary("beep");
+                }
+            }
+
+            tryParse = int.TryParse(output, out finalOutput); // Parse the number
+                    
+            if (errorHandle == false)
+            {
+                tryParse = true; // Skip the error handling and ship the value as is 
+            }
+                    
+        } while (tryParse != true);
+           
+
+        return finalOutput;
+    }
+
+    
+    
+    //##############################################################################################################
+    
+    public static string UserCharInput(int lenght = 1, string texte = "", bool sound = false)
+    {
+        ConsoleKeyInfo userInput;
+        char? userInputString = null;
+        string output = null;
+
+        /*Will return a string of a said lenght with . can show a string of text with console.write
+         * will output a beep if sound is true 
+         */
+
+        Console.Write(texte); //Write text if there is any
+
+
+        // For the leng of number total we will run it . ex : 05 or 14 is lenght 2 
+        for (int i = 0; i < lenght; i++)
+        {
+            userInput = Console.ReadKey(); // Read the key to special magic char
+            userInputString = userInput.KeyChar; // Convert the magic char to only single char
+            output = output +
+                     userInputString; // Add the char to a string if the number is more than 1 digit
+
+            // If sound is true will beep each time a key is pressed
+            if (sound == true)
+            {
+                Console.Beep(1500, 100);
+            }
+        }
+
+
+        return output;
+    }
+    
+    
+    
+    // ################################################################################################################
+    
+    public static void SoundLibrary(string sound = "beep")
+    {
+        switch (sound)
+        {
+            case "beep":
+                Console.Beep(1500, 100); //Pad press sound
+                break;
+            case "coin":
+                Console.Beep(1300, 100); // Coin sound
+                Console.Beep(2500, 100);
+                break;
+            case "cancel":
+                Console.Beep(2600, 100); // Cancel Sound
+                Console.Beep(1600, 100);
+                Console.Beep(800, 100);
+                break;
+            case "success":
+                Console.Beep(1000, 100); // Success sound
+                Console.Beep(2000, 100);
+                Console.Beep(3000, 100);
+                break;
+            case "error":
+                Console.Beep(2600, 100); // error Sound
+                Console.Beep(800, 100);
+                break;
+            default:
+                Console.Beep(500, 100); // Default sound
+                break;
+        }
+    }
     
 }
 
